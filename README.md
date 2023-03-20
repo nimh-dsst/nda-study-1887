@@ -180,7 +180,7 @@ using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes
 rest were programmatically corrected to ensure defacing quality. More details on the defacing workflow used can be
 found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
 
-**Code availability**
+## Code availability
 
 Scripts used for DICOM to BIDS format conversion and de-identification of anatomical MRI scans
-are available on the git repository at [https://github.com/nih-fmrif/nda-study-1887](https://github.com/nih-fmrif/nda-study-1887).
+are available on the git repository at [https://github.com/nimh-dsst/nda-study-1887](https://github.com/nimh-dsst/nda-study-1887).
