@@ -1,0 +1,348 @@
+{
+  "descriptions": [
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AX T1 MT ON"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AX T1 MT-On (IF TIME ALLOWS"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AXIAL T1 MT  ON"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AXIAL T1 MT  On"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AXIAL T1 MT ON"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AXIAL T1 MTC ON"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AX T1 Mt/On POST GAD"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-on",
+      "criteria": {
+        "SeriesDescription": "AX T1 Mt/On POST GAD"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-off",
+      "criteria": {
+        "SeriesDescription": "AX T1 MT OFF"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-off",
+      "criteria": {
+        "SeriesDescription": "AX T1 MT-OFF (iF TIME ALLOWS)"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-off",
+      "criteria": {
+        "SeriesDescription": "AXIAL T1 MT  OFF"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-off",
+      "criteria": {
+        "SeriesDescription": "AXIAL T1 MT OFF"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "MTR",
+      "customLabels": "acq-axial_mt-off",
+      "criteria": {
+        "SeriesDescription": "AXT1 Mt  OFF/POST GAD"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-AxialSPGR",
+      "criteria": {
+        "SeriesDescription": "AX T1 SPGR VOL_giedd"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-CoronalSPGR",
+      "criteria": {
+        "SeriesDescription": "SPGR CORONAL"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-AxialGRE",
+      "criteria": {
+        "SeriesDescription": "AX GRE"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-AxialDiff",
+      "criteria": {
+        "SeriesDescription": "AX DIFF"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-OddSlices",
+      "criteria": {
+        "SeriesDescription": "Clin Sag T1whbr_odd#slices"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-OddSlices",
+      "criteria": {
+        "SeriesDescription": "sagT1whbr_rxoffax_odd#slices"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T2w",
+      "customLabels": "acq-AxialLowres",
+      "criteria": {
+        "SeriesDescription": "T2-se-lores-np"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "PDT2",
+      "customLabels": "acq-AxialLowres",
+      "criteria": {
+        "SeriesDescription": "Ax PD/T2-se-lores-np"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "PDT2",
+      "customLabels": "acq-AxialLowres",
+      "criteria": {
+        "SeriesDescription": "PD/T2-se-lores-np"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T2w",
+      "customLabels": "acq-AxialFSE",
+      "criteria": {
+        "SeriesDescription": "AX FSE T2"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T2w",
+      "customLabels": "acq-AxialFSE",
+      "criteria": {
+        "SeriesDescription": "AxT2 FSE 2mm"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T2w",
+      "customLabels": "acq-AxialFSE",
+      "criteria": {
+        "SeriesDescription": "Clin Ax FSE T2_center to ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T2w",
+      "customLabels": "acq-AxialFSE",
+      "criteria": {
+        "SeriesDescription": "FSE T2_center to ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-SagittalFSE",
+      "criteria": {
+        "SeriesDescription": "Sag T1 FSE 3mm"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-CoronalFSE",
+      "criteria": {
+        "SeriesDescription": "Cor T1 FSE 3mm"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "T1 AXIAL VOL"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AXIAL VOL_giedd"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "giedd -AXIAL VOL"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AX  VOL_giedd - HEAD COIL"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AXIAL VOL_giedd -HEAD COIL"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "acq-sagittal",
+      "criteria": {
+        "SeriesDescription": "SAG T1"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AX FLAIR"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AX FLAIR_5 mm- ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AXIAL FLAIR WHOLE BRAIN"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AXIAL FLAIR_5 mm- ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-axial",
+      "criteria": {
+        "SeriesDescription": "AXIAL FLAIR_center to ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-coronal",
+      "criteria": {
+        "SeriesDescription": "Clin AX FLAIR_center to ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-coronal",
+      "criteria": {
+        "SeriesDescription": "COR FLAIR"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-coronal",
+      "criteria": {
+        "SeriesDescription": "COR FLAIR_center to ACPC"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "FLAIR",
+      "customLabels": "acq-CoronalHippocampus",
+      "criteria": {
+        "SeriesDescription": "PER HIPP COR FLAIR"
+      }
+    }
+  ]
+}
