@@ -1,31 +1,10 @@
 # NDA Study 1887: Structural MRI scans in autism during early childhood in BIDS format 
 
-This repository provides data curation scripts and a viewable README for the anatomical imaging dataset shared as [NDA Study 1887](https://nda.nih.gov/study.html?id=1887). This NDA Study is associated with [NDA Collection 2368](https://nda.nih.gov/edit_collection.html?id=2368), also known as, the Clinical and Immunological Investigations of Subtypes of Autism. 
+This repository provides data curation scripts and a viewable README for the anatomical imaging dataset shared as [NDA Study 1887](https://nda.nih.gov/study.html?id=1887). The NDA Study 1887 is associated with [NDA Collection 2368](https://nda.nih.gov/edit_collection.html?id=2368), also known as, the Clinical and Immunological Investigations of Subtypes of Autism. 
 
-The study is described in detail in Raznahan et al. 2013 (https://doi.org/10.1016/j.nicl.2012.10.005) and Smith et al. 2016 (https://doi.org/10.1002/hbm.23195) among other publications. 
+The study is described in detail in [Raznahan et al. 2013](#references) and [Smith et al. 2016](#references) among other publications. 
 
-Data collection
-started on February 22, 2006, and was completed on March 15, 2017. For more information regarding the study design,
-please visit [https://clinicaltrials.gov/ct2/show/NCT00298246](https://clinicaltrials.gov/ct2/show/NCT00298246).
-
-## Neuroimaging
-
-Given the difficulty of obtaining high-quality neuroimaging data in young children with autism, we scanned children with
-autism under sedation using propofol. Sedation was performed at the NIH by board-certified anesthesiologists following a
-strict clinical protocol. Typically developing controls were scanned during natural sleep at nighttime (with repeat
-scans taken in the event of excess movement).
-
-All participants were scanned on the same 1.5 T General Electric Signa scanner (Milwaukee, WI) using a
-three‐dimensional (3D) spoiled gradient recalled echo sequence with the following image acquisition parameters:
-
-| Parameter             | Value     |
-|-----------------------|-----------|
-| Echo time (TE)        | 5 ms      |
-| Repetition time (TR)  | 24 ms     |
-| Flip angle            | 45°       |
-| Acquisition matrix    | 256 × 192 |
-| Number of excitations | 1         |
-| Field of view         | 24 cm     |
+To be BIDS standard compliant, we provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a BIDS format dataset. The script is distributed with the NDA Study 1887 data package and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
 
 ## NDA Data Download
 
@@ -33,13 +12,13 @@ The Anatomical imaging data have been shared on [NIMH Data Archive (NDA)](https:
 
 To download data from NDA, the user would have to:
 1. Create a data package.
-2. Use NDA's command-line tool or Download Manager to download the data package. 
+2. Download the data package. 
 
 ### Creating a Data Package
 
-Steps below demonstrate creating a data package from [NDA](https://nda.nih.gov)
+Steps below demonstrate creating a data package on [NDA](https://nda.nih.gov)
 
-1. Go to NDA study 1887 page and click on the `Download` button at the bottom of the page.
+1. Go to [NDA study 1887 page](https://nda.nih.gov/study.html?id=1887) and click on the `Download` button at the bottom of the page.
 
     <img src="images/download_1.png">
 
@@ -76,7 +55,6 @@ study1887
 │   ├── manifests
 │   ├── sub-NDARXXXXXXXX
 ...
-│   ├── sub-NDARXXXXXXXX
 │   └── sub-NDARXXXXXXXX
 ├── fmriresults01.txt
 ├── md5_values.txt
@@ -95,8 +73,6 @@ study1887
 ```
 
 ## NDA Data Package to BIDS Directory 
-
-To be BIDS standard compliant, we provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a BIDS format dataset. The script is distributed with the NDA Study 1887 data package and is available through this study repository as well.
 
 Here's an example to `copy` over the NIfTI and associated metadata files into a new directory. 
 
@@ -155,7 +131,15 @@ using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes
 rest were programmatically corrected to ensure defacing quality. More details on the defacing workflow used can be
 found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
 
-**Code availability**
+## Code availability
 
 Scripts used for DICOM to BIDS format conversion and de-identification of anatomical MRI scans
 are available on the git repository at [https://github.com/nih-fmrif/nda-study-1887](https://github.com/nih-fmrif/nda-study-1887).
+
+## References
+1. [Study design of the Clinical and Immunological Investigations of Subtypes of Autism](https://clinicaltrials.gov/ct2/show/NCT00298246)
+2. Armin Raznahan, et al., Mapping cortical anatomy in preschool aged children with autism using surface-based morphometry, NeuroImage: Clinical, 2013, https://doi.org/10.1016/j.nicl.2012.10.005.
+3. Elizabeth Smith, et al., Cortical thickness change in autism during early childhood, Human Brain Mapping, 2016, https://doi.org/10.1002/hbm.23195 .
+
+
+
