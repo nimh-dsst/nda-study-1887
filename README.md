@@ -1,4 +1,4 @@
-# NDA Study 1887: Structural MRI scans for subtypes of autism study in BIDS format 
+# NDA Study 1887: Structural MRI scans for Autism Subtypes study in BIDS format 
 
 This repository provides data curation scripts and a viewable README for the anatomical imaging dataset shared as [NDA Study 1887](https://nda.nih.gov/study.html?id=1887). The NDA Study 1887 is associated with [NDA Collection 2368](https://nda.nih.gov/edit_collection.html?id=2368), also known as, the Clinical and Immunological Investigations of Subtypes of Autism. 
 
