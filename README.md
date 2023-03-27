@@ -1,22 +1,10 @@
-# The Clinical and Immunological Investigations of Subtypes of Autism
+# NDA Study 1887: Structural MRI scans in autism during early childhood in BIDS format 
 
-- [Overview](#overview)
-- [Neuroimaging](#neuroimaging)
-- [NDA Data Download](#nda-data-download)
-  - [Creating a Data Package](#creating-a-data-package)
-  - [Downloading the Data Package](#downloading-the-data-package)
-- [NDA Data Package to BIDS Directory](#nda-data-package-to-bids-directory)
-- [Data Preparation Notes](#data-preparation-notes)
+This repository provides data curation scripts and a viewable README for the anatomical imaging dataset shared as [NDA Study 1887](https://nda.nih.gov/study.html?id=1887). This NDA Study is associated with [NDA Collection 2368](https://nda.nih.gov/edit_collection.html?id=2368), also known as, the Clinical and Immunological Investigations of Subtypes of Autism. 
 
-## Overview
+The study is described in detail in Raznahan et al. 2013 (https://doi.org/10.1016/j.nicl.2012.10.005) and Smith et al. 2016 (https://doi.org/10.1002/hbm.23195) among other publications. 
 
-[Autism spectrum disorder (ASD)](https://medlineplus.gov/genetics/condition/autism-spectrum-disorder) is a common
-neurodevelopmental disorder that is behaviorally defined, emerges early in life, encompasses a heterogeneous range of
-presentations, and is characterized by deficits in social communication and patterns of restrictive/repetitive behavior.
-The purpose of this study was to learn more about autism and its subtypes.
-
-The study used comprehensive and longitudinal medical assessments, and behavioral testing to find
-subgroups of children with autism with profiles that comprise distinct biological/behavioral phenotypes. Data collection
+Data collection
 started on February 22, 2006, and was completed on March 15, 2017. For more information regarding the study design,
 please visit [https://clinicaltrials.gov/ct2/show/NCT00298246](https://clinicaltrials.gov/ct2/show/NCT00298246).
 
@@ -72,21 +60,11 @@ Steps below demonstrate creating a data package from [NDA](https://nda.nih.gov)
 
 ### Downloading the Data Package
 
-The NDA Study 1887 data package is 4 GB in size. Here's a condensed version of the command-line download instructions provided by NDA at https://github.com/NDAR/nda-tools#installing-python
+The NDA Study 1887 data package is 4 GB in size. It can be downloaded using one of two options:
 
-1. Install the python client `nda-tools` with
+1. NDA Tools: Download instructions using the command line utility can be found at https://github.com/NDAR/nda-tools#installing-python (Recommended)
 
-    `python3 -m pip install nda-tools --user`
-
-2. Save your NDA credentials to `keyring`, a python package used by NDA to authenticate users. Here's an example command:
-
-    `keyring set nda-tools <nda-username>`
-
-3. Run the `downloadcmd` command by specifying the data package ID that was created in the previous step
-
-    `downloadcmd -dp <data-package-id> -d <path-to-destination-directory>`
-
-Please find instructions to download a package through NDA Download Manager [here](https://nda.nih.gov/tools/nda-tools.html#download-manager-beta).
+2. Instructions to download a data package using *NDA Download Manager* can be found on https://nda.nih.gov/tools/nda-tools.html#download-manager-beta .
 
 Here's a snapshot of the partial directory after the data package has been downloaded:
 ```bash
@@ -148,7 +126,7 @@ optional arguments:
 
 ## Data Preparation Notes
 Anatomical imaging data is shared in a minimally processed, raw format. However, in order to facilitate data
-analysis, the MRI data are converted to NIfTI and transformed into BIDS format using [Dcm2Bids version
+analysis, the MRI data are converted to NIfTI and transformed into [BIDS](https://bids-specification.readthedocs.io/en/stable/index.html) format using [Dcm2Bids version
 2.1.6](https://github.com/UNFmontreal/Dcm2Bids/releases/tag/2.1.6), which is a wrapper for [dcm2niix version
 1.0.20211006](https://github.com/rordenlab/dcm2niix). The
 following [modality agnostic files](https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#modality-agnostic-files)
@@ -163,9 +141,6 @@ have been shared as supporting documentation:
 | `participants.json`        | A JSON formatted data dictionary describing fields in `participants.tsv`.        |
 | `scans.tsv`                | A tab separated tabular file indicating the method used to deface every scan available in the dataset. |
 | `scans.json`               | A JSON formatted data dictionary describing fields in `scans.tsv`.                                     |
-
-**NOTE:** Upon downloading the imaging data from NDA, please include the above files at the root level. This is REQUIRED
-if your analysis pipeline uses [BIDS Apps](https://bids-apps.neuroimaging.io/about/).
 
 The structural image types included in the dataset are T1w, T2w, FLAIR, PDw, and MTR. For Magnetization Transfer Ratio (
 MTR) images acquired in the presence and absence of an MT pulse have the `mt-on` and `mt-off` entities in their
