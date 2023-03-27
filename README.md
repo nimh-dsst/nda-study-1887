@@ -23,7 +23,7 @@ Steps below demonstrate creating a data package on [NDA](https://nda.nih.gov)
     <img src="images/download_1.png">
 
 
-3. The cart at top right corner should now have 173 subjects. Give it a few seconds to update. Click on `Create Data Package/Add Data to Study` button to see the next prompt.
+2. The cart at top right corner should now have 173 subjects. Give it a few seconds to update. Click on `Create Data Package/Add Data to Study` button to see the next prompt.
 
     <img src="images/download_3.png" width="70%" height="40%">
 
@@ -140,6 +140,3 @@ are available on the git repository at [https://github.com/nih-fmrif/nda-study-1
 1. [Study design of the Clinical and Immunological Investigations of Subtypes of Autism](https://clinicaltrials.gov/ct2/show/NCT00298246)
 2. Armin Raznahan, et al., Mapping cortical anatomy in preschool aged children with autism using surface-based morphometry, NeuroImage: Clinical, 2013, https://doi.org/10.1016/j.nicl.2012.10.005.
 3. Elizabeth Smith, et al., Cortical thickness change in autism during early childhood, Human Brain Mapping, 2016, https://doi.org/10.1002/hbm.23195 .
-
-
-
