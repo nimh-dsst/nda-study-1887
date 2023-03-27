@@ -1,14 +1,13 @@
-# NDA Study 1887: Structural MRI scans in autism during early childhood in BIDS format 
+# NDA Study 1887: Structural MRI scans for subtypes of autism study in BIDS format 
 
 This repository provides data curation scripts and a viewable README for the anatomical imaging dataset shared as [NDA Study 1887](https://nda.nih.gov/study.html?id=1887). The NDA Study 1887 is associated with [NDA Collection 2368](https://nda.nih.gov/edit_collection.html?id=2368), also known as, the Clinical and Immunological Investigations of Subtypes of Autism. 
 
 The study is described in detail in [Raznahan et al. 2013](#references) and [Smith et al. 2016](#references) among other publications. 
 
-To be BIDS standard compliant, we provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a BIDS format dataset. The script is distributed with the NDA Study 1887 data package and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
+We provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a [BIDS](https://bids-specification.readthedocs.io/en/stable/) format dataset. The script is distributed with the NDA Study 1887 data package and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
 
 ## NDA Data Download
-
-The Anatomical imaging data have been shared on [NIMH Data Archive (NDA)](https://nda.nih.gov) as [Study 1887](https://nda.nih.gov/study.html?tab=general&id=1887). To request access please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html).
+To request access to the study please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html).
 
 To download data from NDA, the user would have to:
 1. Create a data package.
@@ -36,6 +35,8 @@ Steps below demonstrate creating a data package on [NDA](https://nda.nih.gov)
 4. Go back to your account dashboard and click on `Data Packages`. It might take about 15-20 minutes to create the package but once it's ready you should see something like this under data packages list. 
 
     <img src="images/download_7.png">
+    
+**NOTE** As of 2023-03-27, these instructions are valid. However, this might not be the case in future. Please report it as an issue on this repo, if the instructions are not valid any more. 
 
 ### Downloading the Data Package
 
@@ -80,7 +81,7 @@ Here's an example to `copy` over the NIfTI and associated metadata files into a 
 
 The user can also choose other file mapping methods such as `softlink` and `move` options. The help prompt for script is as follows:
 ```
-$ python bidsify_1887.py -h                                                   
+$ python bidsify_1887.py -h
 usage: bidsify_1887.py [-h] -i INPUT_DIR -b BIDS_DIR -m METHOD
 
 This script generates BIDS formatted directory for NDA Study 1887 downloaded from NDA.
@@ -92,12 +93,10 @@ optional arguments:
   -b BIDS_DIR, --bids BIDS_DIR, -d BIDS_DIR, --destination BIDS_DIR
                         Path to output the BIDS formatted directory.
   -m METHOD, --method METHOD
-                        Choose a method by which you'd like the files mapped:
-                                                    copy = Outputs copies to the destination BIDS directory.
-                                                    move = Moves files (without creating a copy) to the destination BIDS directory.
-                                                    softlink = Create a softlink (a.k.a. symbolic link or symlink) between NDA files and the destination BIDS directory.
-
-
+                        Choose a method by which you'd like the files mapped: 
+                        copy = Outputs copies to the destination BIDS directory. 
+                        move = Moves files (without creating a copy) to the destination BIDS directory. 
+                        softlink = Create a softlink (a.k.a. symbolic link or symlink) between NDA files and the destination BIDS directory.
 ```
 
 ## Data Preparation Notes
@@ -126,15 +125,17 @@ To preserve subject privacy, MRI scans are defaced
 using [AFNI Refacer version 2.4](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/refacer/refacer_run.html).
 Defaced scans were visually inspected for quality
 using [VisualQC's](https://github.com/raamana/visualqc/tree/0.6.1https://github.com/raamana/visualqc/tree/0.6.1) suite
-of QC tools. 8 of the 31 scans that failed first round of QC were manually defaced
-using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/editing_images.html) and the
-rest were programmatically corrected to ensure defacing quality. More details on the defacing workflow used can be
+of QC tools. More details on the defacing workflow used can be
 found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
+
+8 of the 31 scans that failed first round of QC were manually defaced
+using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/editing_images.html) and the
+rest were programmatically corrected to ensure defacing quality. Defacing technique used for each scan in the dataset has been documented in the `scans.tsv` file.
 
 ## Code availability
 
 Scripts used for DICOM to BIDS format conversion and de-identification of anatomical MRI scans
-are available on the git repository at [https://github.com/nih-fmrif/nda-study-1887](https://github.com/nih-fmrif/nda-study-1887).
+are available on the git repository at [https://github.com/nimh-dsst/nda-study-1887](https://github.com/nimh-dsst/nda-study-1887).
 
 ## References
 1. [Study design of the Clinical and Immunological Investigations of Subtypes of Autism](https://clinicaltrials.gov/ct2/show/NCT00298246)
