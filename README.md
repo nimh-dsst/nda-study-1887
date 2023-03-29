@@ -7,7 +7,7 @@ The study is described in detail in [Raznahan et al. 2013](#references) and [Smi
 We provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a [BIDS](https://bids-specification.readthedocs.io/en/stable/) format dataset. The script is distributed with the NDA Study 1887 data package within the `results/` directory and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
 
 ## NDA Data Download
-To request access to the study please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html). In addition to being able to access the study, the user 
+To access the study, you will need to permissions to the "NIMH Data Archive" group under `Data Permissions --> Active NDA Permissions`. If you don't see "NIMH Data Archive" listed under "Active NDA Permissions", you can request it as highlighted in the screenshot below. More information regarding permissions can be found on [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html)
 
 To download data from NDA, the user would have to:
 1. Create a data package.
@@ -77,7 +77,7 @@ study1887
 
 Here's an example to `copy` over the NIfTI and associated metadata files into a new directory. 
 
-`python3 bidsify_1887 -i nda-study-1887 -b bids-study-1887 -m copy`
+`python3 bidsify_1887.py -i nda-study-1887 -b bids-study-1887 -m copy`
 
 The user can also choose other file mapping methods such as `softlink` and `move` options. The help prompt for script is as follows:
 ```
