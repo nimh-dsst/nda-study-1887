@@ -4,10 +4,10 @@ This repository provides data curation scripts and a viewable README for the ana
 
 The study is described in detail in [Raznahan et al. 2013](#references) and [Smith et al. 2016](#references) among other publications. 
 
-We provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a [BIDS](https://bids-specification.readthedocs.io/en/stable/) format dataset. The script is distributed with the NDA Study 1887 data package and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
+We provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a [BIDS](https://bids-specification.readthedocs.io/en/stable/) format dataset. The script is distributed with the NDA Study 1887 data package within the `results/` directory and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
 
 ## NDA Data Download
-To request access to the study please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html).
+To request access to the study please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html). In addition to being able to access the study, the user 
 
 To download data from NDA, the user would have to:
 1. Create a data package.
@@ -40,7 +40,7 @@ Steps below demonstrate creating a data package on [NDA](https://nda.nih.gov)
 
 ### Downloading the Data Package
 
-The NDA Study 1887 data package is 4 GB in size. It can be downloaded using one of two options:
+The NDA Study 1887 data package is less than 5 GB in size. It can be downloaded using one of two options:
 
 1. NDA Tools: Download instructions using the command line utility can be found at https://github.com/NDAR/nda-tools#installing-python (Recommended)
 
@@ -129,8 +129,7 @@ of QC tools. More details on the defacing workflow used can be
 found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
 
 8 of the 31 scans that failed first round of QC were manually defaced
-using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/editing_images.html) and the
-rest were programmatically corrected to ensure defacing quality. Defacing technique used for each scan in the dataset has been documented in the `scans.tsv` file.
+using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/editing_images.html) and the remaining 23 of 31 were programmatically corrected to ensure defacing quality. Defacing technique used for each scan in the dataset has been documented in the `scans.tsv` file.
 
 ## Code availability
 
@@ -141,3 +140,4 @@ are available on the git repository at [https://github.com/nimh-dsst/nda-study-1
 1. [Study design of the Clinical and Immunological Investigations of Subtypes of Autism](https://clinicaltrials.gov/ct2/show/NCT00298246)
 2. Armin Raznahan, et al., Mapping cortical anatomy in preschool aged children with autism using surface-based morphometry, NeuroImage: Clinical, 2013, https://doi.org/10.1016/j.nicl.2012.10.005.
 3. Elizabeth Smith, et al., Cortical thickness change in autism during early childhood, Human Brain Mapping, 2016, https://doi.org/10.1002/hbm.23195 .
+4. Other publications related to the study are listed in the [`dataset_description.json`](https://github.com/nimh-dsst/nda-study-1887/blob/12d5a6f3ced98c11133a8054f5a247ac1a766d8b/BIDS_modality_agnostic_files/dataset_description.json#L28) file. 
