@@ -4,10 +4,11 @@ This repository provides data curation scripts and a viewable README for the ana
 
 The study is described in detail in [Raznahan et al. 2013](#references) and [Smith et al. 2016](#references) among other publications. 
 
-We provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a [BIDS](https://bids-specification.readthedocs.io/en/stable/) format dataset. The script is distributed with the NDA Study 1887 data package within the `results/` directory and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
+We provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a [BIDS](https://bids-specification.readthedocs.io/en/stable/) format dataset. The script is distributed with the NDA Study 1887 data package under `results/` directory and is also available on this repository. Script usage instructions are described [below](#nda-data-package-to-bids-directory). 
 
 ## NDA Data Download
-To access the study, you will need to permissions to the "NIMH Data Archive" group under `Data Permissions --> Active NDA Permissions`. If you don't see "NIMH Data Archive" listed under "Active NDA Permissions", you can request it as highlighted in the screenshot below. More information regarding permissions can be found on [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html)
+
+**NOTE:** To access the study, you will need permissions to the "NIMH Data Archive" group under `Data Permissions --> Active NDA Permissions`. If you don't see "NIMH Data Archive" listed under "Active NDA Permissions", then you'll have to request it. More information on access requests can be found [here](https://nda.nih.gov/nda/access-data-info.html).
 
 To download data from NDA, the user would have to:
 1. Create a data package.
@@ -21,22 +22,19 @@ Steps below demonstrate creating a data package on [NDA](https://nda.nih.gov)
 
     <img src="images/download_1.png">
 
-
 2. The cart at top right corner should now have 173 subjects. Give it a few seconds to update. Click on `Create Data Package/Add Data to Study` button to see the next prompt.
 
     <img src="images/download_3.png" width="70%" height="40%">
-
 
 3. Provide a desired name for the new package. Make sure to check the `Include associated data files` to download NIfTI images along with the metadata. 
 
     <img src="images/download_5.png">
 
-
 4. Go back to your account dashboard and click on `Data Packages`. It might take about 15-20 minutes to create the package but once it's ready you should see something like this under data packages list. 
 
     <img src="images/download_7.png">
     
-**NOTE** As of 2023-03-27, these instructions are valid. However, this might not be the case in future. Please report it as an issue on this repo, if the instructions are not valid any more. 
+**NOTE:** As of 2023-03-29, these instructions are valid. However, this might not be the case in future. Please report it as an issue on this repo, if the instructions are not valid any more. 
 
 ### Downloading the Data Package
 
