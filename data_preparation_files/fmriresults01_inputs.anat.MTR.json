@@ -1,0 +1,6 @@
+{
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_mt-off_MTR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_mt-off_MTR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_mt-off_MTR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_mt-off_MTR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_mt-on_MTR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_mt-on_MTR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_mt-on_MTR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_mt-on_MTR.nii.gz"
+}

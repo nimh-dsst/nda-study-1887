@@ -1,0 +1,6 @@
+{
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_run-{#}_T2w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_run-{#}_T2w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_T2w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_T2w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialFSE_run-{#}_T2w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialFSE_run-{#}_T2w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialFSE_T2w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialFSE_T2w.nii.gz"
+}

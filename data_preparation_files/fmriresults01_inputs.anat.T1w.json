@@ -1,0 +1,20 @@
+{
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialDiff_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialDiff_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialDiff_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialDiff_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialGRE_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialGRE_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialGRE_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialGRE_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialSPGR_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialSPGR_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialSPGR_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialSPGR_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalFSE_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalFSE_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalFSE_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalFSE_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalSPGR_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalSPGR_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalSPGR_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalSPGR_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-OddSlices_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-OddSlices_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-OddSlices_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-OddSlices_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-sagittal_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-sagittal_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-sagittal_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-sagittal_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-SagittalFSE_run-{#}_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-SagittalFSE_run-{#}_T1w.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-SagittalFSE_T1w.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-SagittalFSE_T1w.nii.gz"
+}

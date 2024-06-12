@@ -1,0 +1,4 @@
+{
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_run-{#}_PDw.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_run-{#}_PDw.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_PDw.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-AxialLowres_PDw.nii.gz"
+}

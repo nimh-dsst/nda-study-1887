@@ -1,0 +1,8 @@
+{
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_FLAIR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_FLAIR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_FLAIR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-axial_run-{#}_FLAIR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-coronal_FLAIR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-coronal_FLAIR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-coronal_run-{#}_FLAIR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-coronal_run-{#}_FLAIR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalHippocampus_FLAIR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalHippocampus_FLAIR.nii.gz",
+    "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalHippocampus_run-{#}_FLAIR.nii.gz": "sub-{SUBJECT}/ses-{SESSION}/anat/sub-{SUBJECT}_ses-{SESSION}_acq-CoronalHippocampus_run-{#}_FLAIR.nii.gz"
+}
